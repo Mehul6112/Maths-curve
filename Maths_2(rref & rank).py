@@ -16,7 +16,7 @@ print(np.array(matrix).astype(np.float64))
 def echelon_form(matrix):
     print("\n ROW REDUCED ECHELON FORM OF THE MATRIX\n")
     print("Reduced Row Echelon Form is: \n ")
-    return np.array(matrix.rref()[0]).astype(np.float64)
+    return (np.array(matrix.rref()[0]).astype(np.float64))
 
 print(echelon_form(matrix))
 
